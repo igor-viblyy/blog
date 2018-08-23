@@ -1,0 +1,7 @@
+.container
+  .col-12
+    = link_to 'New Blog', new_blog_name_path
+
+  .col-12
+    - model.each do |blog|
+      = link_to blog.name, blog_name_path(blog)

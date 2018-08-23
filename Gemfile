@@ -66,6 +66,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'rubycritic', require: false
+  gem 'class_indexer'
 end
 
 group :test do
@@ -101,3 +102,5 @@ gem 'trailblazer-rails'
 gem 'trailblazer-cells'
 gem 'cells-rails'
 gem 'cells-slim'
+gem 'reform', '>= 2.2.0'
+gem 'reform-rails'
